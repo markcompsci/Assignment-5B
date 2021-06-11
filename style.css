@@ -9,6 +9,10 @@ body {
   margin-left: 16px;
 }
 
+input {
+  width: 5rem;
+}
+
 /* Removing arrows from input field */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -22,7 +26,7 @@ input[type=number] {
 
 #welcome {
   text-align: center;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 #circle-img {
@@ -31,9 +35,6 @@ input[type=number] {
   border-radius: 50%;
 }
 
-input {
-  width: 5rem;
-}
 
 #instruction-p {
   margin: 25px 0;
