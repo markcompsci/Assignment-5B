@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightskyblue;
+  margin-left: 16px;
+}
+
+/* Removing arrows from input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#welcome {
+  text-align: center;
+  margin-top: 1rem
+}
+
+#circle-img {
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+input {
+  width: 5rem;
+}
+
+#instruction-p {
+  margin: 25px 0;
+}
+
+#circumference-answer-txt {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 2px 16px;
+  margin: 16px 0 0 32px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-color: rgb(221, 67, 47);
+  color: white;
+  font-weight: 550;
+}
